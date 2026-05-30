@@ -113,39 +113,6 @@ Implements the full 2D ABM on a 200×200 grid with:
 
 ---
 
-## Installation & Usage
-
-### Requirements
-
-```bash
-pip install numpy matplotlib
-```
-
-### Run all three scripts
-
-```bash
-# Q1 – Core ABM (three regimes + risk curve)
-python abm_excitable_media.py
-
-# Q2 – Spiral formation mechanisms
-python spiral_formation.py
-
-# Q3 – Effect of refractory period
-python refractory_effect.py
-```
-
-All plots display inline (no files are saved). To save a figure from Jupyter, right-click the image → *Save Image As*.
-
-### Jupyter Notebook
-
-All scripts are designed to run in **Jupyter Lab / Notebook**. Copy the contents of each `.py` file into notebook cells, or use:
-
-```python
-%run abm_excitable_media.py
-```
-
----
-
 ## Key Results
 
 | Mechanism | Effect on spirals | Clinical analogue |
